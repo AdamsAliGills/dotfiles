@@ -1,0 +1,1 @@
+/home/limon/.config/omarchy/current/theme/neovim.lua
