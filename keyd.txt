@@ -1,0 +1,8 @@
+[ids]
+*
+
+[main]
+rightalt = backspace
+rightcontrol = :
+escape = capslock
+capslock = overload(control, escape)
