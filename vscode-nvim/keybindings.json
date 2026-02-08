@@ -1,0 +1,17 @@
+[
+  {
+    "key": "tab",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetVisible && suggestWidgetHasFocusedSuggestion"
+  },
+  {
+    "key": "tab",
+    "command": "tab",
+    "when": "editorTextFocus && !suggestWidgetVisible && !editorReadonly && !hasOtherSuggestions"
+  },
+  {
+    "key": "shift+tab",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetVisible && suggestWidgetHasFocusedSuggestion"
+  }
+]
